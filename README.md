@@ -46,7 +46,8 @@ For this purpose, I liked to create an EventArc trigger (via Cloud Pub Sub) conn
 You have plenty of choices depending on your case and needs.<br>
 The script handles pagination, meaning it goes up to 10.000 rows (the API limit for one request) and then it dynamically switch to the second results page with the same limit.<br>
 Every 10.000 results well written into BigQuery, the script logs "inserted xx rows" where xx is the number of written rows in your table. For example, this means for 99.984 rows, the following logs are expected:<br><br>
-![image](https://github.com/rimalesani/ua_backup/assets/169257832/e64cf5b3-fcb7-4609-86ac-4417f417407f)
+![image](https://github.com/rimalesani/ua_backup/assets/169257832/e64cf5b3-fcb7-4609-86ac-4417f417407f)<br><br>
+If you need Filters or Segments, you need to uncomment the dedicated part of the API call options at the end of index.js main source. Use the "ga:..." notation and refer to the API guidelines.
 
 # license
 
