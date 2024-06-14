@@ -1,5 +1,11 @@
 {
-  "name": "ua_backup_1",
+  "name": "ua_backup",
+  "author": "riccardo_malesani",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rimalesani/ua_backup.git"
+  },
   "version": "0.0.1",
   "dependencies": {
     "@google-cloud/bigquery": "*",
