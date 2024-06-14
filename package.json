@@ -1,0 +1,9 @@
+{
+  "name": "ua_backup_1",
+  "version": "0.0.1",
+  "dependencies": {
+    "@google-cloud/bigquery": "*",
+    "googleapis": "*"
+  },
+  "type": "module"
+}
