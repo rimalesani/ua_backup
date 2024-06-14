@@ -1,3 +1,5 @@
+![image](https://github.com/rimalesani/ua_backup/assets/169257832/af220263-512a-4ad3-8210-1161b8a9ffd6)
+
 # ua_backup
 A Node.js module, meant to be used in Google Cloud Functions or Cloud Run environments, to easily and quickly extract Google Universal Analytics data and store it in a Google BigQuery table of choice.
 
