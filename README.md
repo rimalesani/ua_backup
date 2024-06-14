@@ -48,5 +48,9 @@ The script handles pagination, meaning it goes up to 10.000 rows (the API limit 
 Every 10.000 results well written into BigQuery, the script logs "inserted xx rows" where xx is the number of written rows in your table. For example, this means for 99.984 rows, the following logs are expected:<br><br>
 ![image](https://github.com/rimalesani/ua_backup/assets/169257832/e64cf5b3-fcb7-4609-86ac-4417f417407f)
 
+# license
+
+You're free to use, share and modify this code upon need. Just include the MIT License permission notice on top of your code. Look at LICENSE here for more.
+
 
 
